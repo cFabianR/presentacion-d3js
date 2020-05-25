@@ -127,7 +127,7 @@ const createCountries = (data: Country[]) => {
     .data(data).enter()
     .append("circle")
       .attr("class", d => `${style.country} ${continentScale(d.continent)}`)
-      .attr("cx", d => xScale(d.purchasingPower))
+      .attr("cx", d => xScale(d.purchasingPower) + margin)
       .attr("cy", d => yScale(d.lifeExpectancy))
       .attr("r", d => countryAreaScale(d.population))
       .on("mouseenter", showInfoPopup)
