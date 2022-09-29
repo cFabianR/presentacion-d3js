@@ -10,7 +10,7 @@
   "author": "Javier Calzado",
   "license": "MIT",
   "dependencies": {
-    "d3": "^5.1.0",
+    "d3": "^7.6.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-faux-dom": "^4.1.0"
